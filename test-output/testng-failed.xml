@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="remoteURL" value="http://192.168.1.105/wd/hub"/>
+  <test name="Test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="remoteURL" value="http://192.168.1.105/wd/hub"/>
+    <classes>
+      <class name="scripts.TC01_Login">
+        <methods>
+          <include name="startOfSuite"/>
+          <include name="precondition"/>
+          <include name="startOfClass"/>
+          <include name="testValidLogin"/>
+          <include name="startOfTest"/>
+        </methods>
+      </class> <!-- scripts.TC01_Login -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Suite</th></tr><tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">2,151</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">scripts.TC01_Login</td><td><a href="#m0">precondition</a></td><td rowspan="1">1500012795140</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="4">scripts.TC01_Login</td><td><a href="#m1">endOfClass</a></td><td rowspan="1">1500012796096</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m2">endOfSuite</a></td><td rowspan="1">1500012796186</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">endOfTest</a></td><td rowspan="1">1500012796099</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m4">postcondition</a></td><td rowspan="1">1500012796094</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">scripts.TC01_Login</td><td><a href="#m5">testValidLogin</a></td><td rowspan="1">1500012796090</td><td rowspan="1">2</td></tr></tbody></table><h2>Test</h2><h3 id="m0">scripts.TC01_Login#precondition</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>http://192.168.1.105/wd/hub</td><td>firefox</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.UnsupportedCommandException: &lt;!DOCTYPE html&gt;
+
+
+
+
+
+
+
+
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;The page you requested could not be found&lt;/title&gt;
+    &lt;meta name=&quot;robots&quot; content=&quot;noindex,nofollow&quot;/&gt;
+    &lt;META NAME=&quot;title&quot; content=&quot;The page you requested could not be found&quot;&gt;
+&lt;/head&gt;
+&lt;body bgColor=&quot;#ffffff&quot;&gt;
+
+&lt;table bgcolor=&quot;#ffffff&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; width=&quot;100%&quot; height=&quot;100%&quot; border=&quot;0&quot;&gt;
+    &lt;tr&gt;
+        &lt;td height=&quot;100%&quot; valign=&quot;center&quot; align=&quot;center&quot;&gt;
+            &lt;table width=&quot;500&quot;&gt;
+                &lt;tr&gt;
+                    &lt;td valign=&quot;middle&quot;&gt;
+                        &lt;img src=&quot;/img/default/error_exclamation.gif?hash=1247701116&quot; border=&quot;0&quot; alt=&quot;&quot;&gt;
+                    &lt;/td&gt;
+                    &lt;td style=&quot;padding-left: 20px;&quot;&gt;
+                        &lt;div style=&quot;padding-top: 16px; font-size: 14pt; color: #ff0000; font-family: Arial, Helvetica, serif;&quot;&gt;
+                            &lt;strong&gt;
+                                &lt;nobr&gt;The page you requested could not be found&lt;/nobr&gt;
+                            &lt;/strong&gt;
+                        &lt;/div&gt;
+                        &lt;div style=&quot;padding-top: 15px; font-size: 12pt; color: #000000; font-family: Arial, Helvetica, serif;&quot;&gt;
+                            &lt;strong&gt;
+                                It is possible that this page was deleted. Please contact your system administrator for more information.
+                            &lt;/strong&gt;
+                        &lt;/div&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+Command duration or timeout: 426 milliseconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;
+System info: host: &apos;user-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:158)
+	at scripts.BaseTest.precondition(BaseTest.java:82)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">scripts.TC01_Login#endOfClass</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">scripts.TC01_Login#endOfSuite</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m3">scripts.TC01_Login#endOfTest</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m4">scripts.TC01_Login#postcondition</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m5">scripts.TC01_Login#testValidLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>fasiulla.d</td><td>CDE#4rfv</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>
